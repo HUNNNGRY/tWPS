@@ -19,8 +19,8 @@
 
 ###  1.1. <a name='Step1:Obtainacopyofthisworkflow'></a>Step 1: Obtain a copy of this workflow
 
-# Clone the repository to your local system, into the place where you want to perform the data analysis.
 ```bash
+#Clone the repository to the place to perform the data analysis
 git clone https://github.com/hunnngry/tWPS.git
 ```
 
