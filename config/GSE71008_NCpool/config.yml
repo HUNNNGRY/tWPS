@@ -1,0 +1,12 @@
+#dataset="GSE71008_NCpool"
+samples: "config/GSE71008_NCpool/samples.tsv" # .tsv file containing sample names and locations
+regions: "config/GSE71008_NCpool/regions.tsv" # .tsv file containing bed files with regions of interest
+# outdir: "results/intermediate" # outdir path
+
+minRL: 30 # minimum read length for calculating tWPS
+maxRL: 80 # maximum read length for calculating tWPS
+bpProtection: 15 # length slighly less than of RBP et al. protection
+downSampleRatio: 0.5 # tWPS cov down sampling ratio
+
+genome:
+  chrsize: "genome/hg38/chrom_sizes/transcriptome_genome_sort_uniq_newTxID" 
