@@ -1,0 +1,2 @@
+ID	sample	path	ref_samples	genome_build	status	libType
+GSE71008_NCpool	NCpool	data/GSE71008_NCpool/merge11RNA_sort_primary.bam	NCpool	GRCh38	NA	forward
